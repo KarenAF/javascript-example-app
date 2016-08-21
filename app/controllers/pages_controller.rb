@@ -11,4 +11,8 @@ class PagesController < ApplicationController
     p @places
     render 'show.json.jbuilder'
   end
+
+  def draw
+    render 'draw.html.erb'
+  end
 end
